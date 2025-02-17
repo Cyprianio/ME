@@ -1,0 +1,131 @@
+{% extends 'adm/base.html' %}
+{% block body %}
+{% load static %}
+<div class="container" id="O_mnie">
+    <div>
+        <img style="border-radius: 50%; border: rgb(69, 19, 19) 4px solid;" src="{% static 'images/photo.jpg' %}" alt="moje zdjęcie">
+    </div>
+    <div style="margin: 10px 30px; color: white; text-align: center;">
+        <h1>Witam</h1>
+        <p>
+            mskn amdl akmd mskn amdl akmd mskn amdl akmd mskn amdl akmd mskn amdl 
+            akmd mskn amdl akmd mskn amdl akmd mskn amdl akmd mskn amdl akmd
+        </p>
+    </div>
+</div>   
+    
+<div class="paragraph">
+        <h1>Moje doświadczenie zawodowe</h1>
+        <div class="paragraph-section">
+            <div id="obecna-praca">
+                <h2 style="color: #ffb132;">Specjalista do tworzenia i utrzymania aplikacji</h2>
+                <h2 style="margin-top: 5px;">Agencja Badań Medycznych</h2>
+                <div style="font-size: 10px;">Marzec 2023 - obecnie</div>
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <ul class="duties">
+                        <li>Tworzenie oprogramowania aplikacji (FullStack Developer)</li>
+                        <li>Zbieranie wymagań biznesowych dotyczących oprogramowania od użytkowników</li>
+                        <li>Utrzymania wytworzonych środowisk</li>
+                        <li>Tworzenie interfejsów oprogramowania aplikacji</li>
+                        <li>Generowanie zestawień oraz raportów</li>
+                        <li>Analiza i usuwanie błędów w wytworzonym oprogramowaniu aplikacji</li>
+                        <li>Tworzenie oraz aktualizacja dokumentacji technicznej wytworzonego oprogramowania aplikacji</li>
+                        <li>Wsparcie merytoryczne użytkowników wytworzonego oprogramowania aplikacji</li>
+                        <li>Inne prace zlecone przez przełożonych wynikające z zakresu działania działu i potrzeb doraźnych</li>
+                    </ul>
+                </div>
+                <div>Główne technologie: Python3, Linux, Django, Apache2, PostgreSQL, HTML, CSS, JavaScript, Jira, Asana.</div>
+            </div>
+        </div>
+        <div class="paragraph-section" style="margin-top: 10px; background-color: #2f2f2f;">
+            <div id="byłe-prace" style="align-items: center; text-align: center;">
+                <h3 style="color: #ba8229;">Technik Symulacji Medycznej - Informatyk</h3>
+                <h3 style="margin-top: 5px;">Centrum Symulacji Medycznych w Uczelni Łazarskiego w
+                    Warszawie</h3>
+                <div style="font-size: 10px; color: rgb(189, 188, 188);">Listopad 2021 - Październik 2022</div>
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <ul class="duties">
+                        <li>Zarządzanie, konfiguracja, utrzymanie i bieżąca obsługa symulatorów wraz ze sprzętem i oprogramowaniem peryferyjnym</li>
+                        <li>Wsparcie informatyczne zajęć symulacyjnych i egzaminów</li>
+                        <li>Wsparcie informatyczne nauczycieli prowadzących zajęcia dydaktyczne</li>
+                        <li>Bieżące przeglądy sprzętu</li>
+                        <li>Programowanie scenariuszy</li>
+                        <li>Minimalizacja kosztów utrzymania oraz dbałość o wyposażenie</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="paragraph-section" style="margin-top: 10px; background-color: #2f2f2f;">
+            <div id="byłe-prace">
+                <h3 style="color: #ba8229;">Praktyki zawodowe</h3>
+                <h3 style="margin-top: 5px;">Instytut Optoelektroniki Wojskowej Akademii Technicznej</h3>
+                <div style="font-size: 10px; color: rgb(189, 188, 188);">Wrzesień 2021</div>
+                <div style="max-width: 800px; margin: 0 auto;">
+                    <ul class="duties">
+                        <li>Tworzenie aplikacji w środowisku Unity</li>
+                        <li>Tworzenie skryptów do aplikacji w języku C#</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</div>
+
+
+<div class="paragraph">
+    <h1>Moje Wykształcenie</h1>
+    <div class="container_flex">
+        <div class="box-section">
+            <h2>Uczelnia Wyższa</h2>
+            <p><strong>Wojskowa Akademia Techniczna</strong></p>
+            <p>Kierunek: Biocybernetyka i Inżynieria Biomedyczna</p>
+            <p>Październik 2018 - Luty 2023</p>
+
+            <h3 style="margin-top: 30px;">Temat pracy inżynierskiej:</h3>
+            <p style="margin-top: 5px;">Opracowanie stanowiska do obrazowania stereoskopowego w biologii</p>
+
+            
+        </div>
+    
+        <div class="box-section">
+            <h2>Kursy i szkolenia</h2>
+            <ul class="courses">
+                <li>Blender - zaawansowane techniki modelowania</li>
+                <li>Linux dla początkujących</li>
+                <li>Fundamenty języka HTML - kodowanie stron od podstaw</li>
+                <li>Sieci komputerowe dla początkujących</li>
+                <li>Fundamenty CSS - stylowanie stron od podstaw</li>
+            </ul>
+        </div>
+    </div> 
+</div>
+
+
+
+<div class="paragraph">
+    <div style="margin: 10px 30px; color: white; text-align: center;" id="Kontakt">
+        <h1>Kontakt</h1>
+        <div class="paragraph-section" style="flex-direction: column; gap: 12px;">
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <div style="width: 30px; height: 30px;">
+                    <img src="{% static 'images/mail.svg' %}" alt="mail" style="width: 100%; height: 100%;">
+                </div>
+                <div>
+                    kacperkrysiak99@gmail.com
+                </div>
+            </div>
+
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <div style="width: 30px; height: 30px;">
+                    <img src="{% static 'images/linkedin.svg' %}" alt="mail" style="width: 100%; height: 100%;">
+                </div>
+                <div>
+                    <a style="text-decoration: none; color: white;" href="https://www.linkedin.com/in/kacper-krysiak-10883420b/" target="_blank">Profil na LinkedIn</a>
+                </div>
+            </div>
+            
+        </div>  
+    </div>
+</div>
+
+</div>
+{% endblock %}

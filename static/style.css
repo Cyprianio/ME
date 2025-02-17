@@ -1,0 +1,179 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+/* Stylowanie linków w menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Efekt hover dla linków */
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Stylowanie logo */
+.logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    align-self: center;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 0;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    left: 0px;  /* Ustawienie marginesu z lewej */
+    right: 0px; /* Ustawienie marginesu z prawej */
+    background-color: #333;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    left: 10px;  /* Ustawienie marginesu z lewej */
+    right: 10px; /* Ustawienie marginesu z prawej */
+    background-color: #333;
+    z-index: -1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.container {
+    background-color: #333;
+    display: flex;
+    padding: 20px 10px;
+    margin: 20px 0;
+}
+
+/* Ogólne style strony */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Wycentrowanie głównego kontenera */
+.paragraph {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.paragraph h2 {
+    font-size: 18px;
+    color: #f39c12;
+    margin-bottom: 5px;
+}
+
+.paragraph h3 {
+    font-size: 18px;
+    color: #a56b0e;
+    margin-bottom: 5px;
+}
+
+/* Styl nagłówka */
+h1 {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.paragraph-section {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+}
+/* Kontener flex dla sekcji edukacji */
+.container_flex {
+    display: flex;
+    justify-content: space-between; /* Rozstawienie elementów po lewej i prawej */
+    gap: 30px; /* Odstęp między sekcjami */
+}
+
+/* Pojedyncza sekcja */
+.box-section {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 48%; /* Każda sekcja zajmuje mniej niż połowę szerokości */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.box-section h2 {
+    font-size: 18px;
+    color: #f39c12;
+    margin-bottom: 5px;
+}
+
+.box-section h3 {
+    font-size: 16px;
+    color: #f39c12;
+    margin-bottom: 5px;
+}
+
+.duties li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.courses {
+    text-align: left;
+}
+
+.courses li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+#byłe-prace .duties li{
+    color: rgb(189, 188, 188);
+}
