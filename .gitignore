@@ -5,4 +5,3 @@ ssh_key
 ssh_key.pub
 .idea
 db.sqlite3
-manage.py
